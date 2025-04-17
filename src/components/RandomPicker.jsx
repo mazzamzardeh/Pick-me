@@ -95,7 +95,7 @@ export default function RandomPicker() {
             ? displayedItem
             : state.result
             ? `${state.result} `
-            : 'Add a name and let me pick a winner for you!'}
+            : 'Add some names and let me pick a winner for you!'}
         </h2>
 
         {!state.isPlaying && (
